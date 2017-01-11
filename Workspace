@@ -1,0 +1,104 @@
+{
+  "htmlFiles": [
+    {
+      "fileId": "0B5ODY6S6GWROMV9VNjhfNlB6Vms",
+      "contentType": "text/html",
+      "name": "Home.html",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00/"
+    },
+    {
+      "fileId": "0B6mnmzLVtmQMdXUwaFVTbFJVelU",
+      "contentType": "text/html",
+      "name": "Explore.html",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00/"
+    },
+    {
+      "fileId": "0B6mnmzLVtmQMSDN6OFY2RTNCc2s",
+      "contentType": "text/html",
+      "name": "Crafts_How-to-Tie-Dye-an-Old-White-Shirt.html",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00"
+    },
+    {
+      "fileId": "0B6mnmzLVtmQMbW5mNjNnUlFONDg",
+      "contentType": "text/html",
+      "name": "Submissions.html",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00"
+    },
+    {
+      "fileId": "0B5ODY6S6GWROVjhGVW96ck9jSTA",
+      "contentType": "text/html",
+      "name": "Crafts_fluffy-slime.html",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00"
+    },
+    {
+      "fileId": "0B6mnmzLVtmQMajdVTGV5dVppTGM",
+      "contentType": "text/html",
+      "name": "Crafts_Make-A-Silver-Ring-For-25-Cents.html",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00"
+    },
+    {
+      "fileId": "0B6mnmzLVtmQMM0VhQjlvX3QzMTQ",
+      "contentType": "text/html",
+      "name": "Crafts_clothespin-star.html",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00/Projects"
+    },
+    {
+      "fileId": "0B6mnmzLVtmQMUUFnNUFzQ255RTg",
+      "contentType": "text/html",
+      "name": "DIY-Coming-Soon.html",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00"
+    },
+    {
+      "fileId": "0ByxonOq3tn7hel9scXRhNVhWODA",
+      "contentType": "text/html",
+      "name": "Foods_SmorePizza.html",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00"
+    },
+    {
+      "fileId": "0B6mnmzLVtmQMSEVIQmo5TVE0WHc",
+      "contentType": "text/html",
+      "name": "Tech_backlit-shelf.html",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00/Projects"
+    }
+  ],
+  "cssFiles": [
+    {
+      "fileId": "0B5ODY6S6GWROSFpyVlJWZ1laM2c",
+      "contentType": "text/css",
+      "name": "Home.css",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00/"
+    },
+    {
+      "fileId": "0B6mnmzLVtmQMQXlfazM3RW1OdlU",
+      "contentType": "text/css",
+      "name": "ExploreStyle.css",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00/"
+    },
+    {
+      "fileId": "0B6mnmzLVtmQMdVlQRkROc3dtcVU",
+      "contentType": "text/css",
+      "name": "AboutStyle.css",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00/"
+    },
+    {
+      "fileId": "0B6mnmzLVtmQMMkNSQVNVMWlCeFU",
+      "contentType": "text/css",
+      "name": "diyproject.css",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00"
+    },
+    {
+      "fileId": "0B6mnmzLVtmQMUkJlVHRORUJ2cGM",
+      "contentType": "text/css",
+      "name": "SubmissionsStyle.css",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00"
+    }
+  ],
+  "javascriptFiles": [
+    {
+      "fileId": "0B5ODY6S6GWRONGZFVGFjZGx4WmM",
+      "contentType": "text/javascript",
+      "name": "code.js",
+      "path": "0B5ODY6S6GWROblg0VFBfYlRTR00/"
+    }
+  ]
+}

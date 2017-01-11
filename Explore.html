@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>DIY Sky- Explore</title>
+        <script src="code.js" type="text/javascript" charset="utf-8"></script>
+        <link href="ExploreStyle.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <!-- Container div -->
+
+             <div class= "header">
+                <!-- Div for the part above the Nav Bar-->
+                <img  id = "logohead" src = "diysky-logo.png" width = "150" height = "45" onclick="window.location='Home.html'">
+            </div>
+
+
+            <div class="top">
+                <!-- Div for the top portion of the website -->
+
+                <!-- This is the Nav Bar -->
+                <ul id="navbar">
+
+                    <li>
+                        <button><a href="Home.html">Home</a></button>
+                    </li>
+                    <li>
+                        <button><b>Explore</b></button>
+                    </li>
+                    <li>
+                        <button><a href="Submissions.html">Submissions</a></button>
+                    </li>
+                    <li>
+                        <button><a href="About.html">About</a></button>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="mid">
+
+                <div class="mid-top">
+                     <h1 id="main-slogan">Do Everything <b id = "by-yourself">by Yourself</b></h1>
+                    <hr>
+                     <h2 id="second-slogan">With our ever-expanding library of diy projects</h2>
+                </div>
+
+                <div class="category-chips">
+
+                    <div id="chip1" onclick="showCrafts()">
+                        <img src="Art.jpg" alt="Art" width="96" height="96">Crafts
+                    </div>
+
+                    <div id="chip2" onclick="showTech()">
+                        <img src="tech-pc.jpg" alt="Tech" width="96" height="96">Tech
+                    </div>
+
+                    <div id="chip3" onClick="showHome()">
+                        <img src="home.png" alt="Tech" width="96" height="96">Home
+                    </div>
+
+                    <div id="chip4" onclick="showFood()">
+                        <img src="food.jpg" alt="Tech" width="96" height="96">Food
+                    </div>
+
+                </div>
+
+                <div class="middle">
+                    <br />
+
+                    <div id="crafts" style="display:none">
+                         <h1>Crafts</h1>
+                        <hr>
+                        <br />
+                        <div align="center" class="craftcards">
+                        <div class="CraftCard1" onclick="window.location='Projects/Crafts_How-to-Tie-Dye-an-Old-White-Shirt.html';">
+                            <img src="tie-dye.jpg" alt="Display" width="96" height="96">
+                            <div class="CraftContainer1">
+                                 <h4><b>Tie Dye an Old White Shirt</b></h4>
+                                <p>Use an old white shirt to give your wardrobe a pop of color!</p>
+                            </div>
+                        </div>
+                        <div class="CraftCard2" onclick="window.location='Projects/Crafts_fluffy-slime.html';">
+                            <img src="slime.jpg" alt="Display" width="96" height="96">
+                            <div class="CraftContainer2">
+                                 <h4><b>Fluffy Slime</b></h4>
+                                <p>Relieve your stress with a stretchable, squeezable puddy!</p>
+                            </div>
+                        </div>
+                        <div class="CraftCard3" onclick="window.location='Projects/Crafts_clothespin-star.html'">
+                            <img src="star.jpg" alt="Display" width="96" height="96">
+                            <div class="CraftContainer3">
+                                 <h4><b>Clothespin Star</b></h4>
+                                <p>Be able to H\hang your clothes with ultimate effeciency</p>
+                            </div>
+                        </div>
+                        <div class="CraftCard4" onclick="window.location='Projects/Crafts_Make-A-Silver-Ring-For-25-Cents.html'">
+                            <img src="quarter-ring.jpg" alt="Display" width="96" height="96">
+                            <div class="CraftContainer4">
+                                 <h4><b>Ring from a Quarter</b></h4>
+                                <p>DIY jewelry made from that annoying loose change</p>
+                            </div>
+                        </div>
+                        </div>
+
+                    </div>
+
+                    <div id="tech" style="display:none">
+                        <h1>Tech</h1>
+                        <hr>
+                        <div align="center" class="techcards">
+                        <div class="TechCard1" onclick="window.location='Projects/Tech_backlit-shelf.html'">
+                            <img src="ikeabookshelf.jpg" alt="Display" width="96" height="96">
+                            <div class="TechContainer1">
+                                 <h4><b>Backlit Bookshelf</b></h4>
+                                <p>Illuminate any room in your house with an LED-backlit bookshelf</p>
+                            </div>
+                        </div>
+                        <div class="TechCard2" onclick="window.location='Projects/DIY-Coming-Soon.html'">
+                            <img src="minifridge.jpg" alt="Display" width="96" height="96" >
+                            <div class="TechContainer2">
+                                 <h4><b>Portable Mini Refrigerator</b></h4>
+                                <p>Enjoy the convenience of a minifridge without the burden of the expense</p>
+                            </div>
+                        </div>
+                        <div class="TechCard3" onclick="window.location='Projects/DIY-Coming-Soon.html'">
+                            <img src="electriclighter.jpg" alt="Display" width="96" height="96" x>
+                            <div class="TechContainer3">
+                                 <h4><b>Electric Lighter</b></h4>
+                                <p>A more efficient way to start a fire without the hassle of buying disposable lighters</p>
+                            </div>
+                        </div>
+                        <div class="TechCard4" onclick="window.location='Projects/DIY-Coming-Soon.html'">
+                            <img src="diy4.jpg" alt="Display" width="96" height="96" >
+                            <div class="TechContainer4">
+                                 <h4><b>Vintage Speaker</b></h4>
+                                <p>Throw it back with an innovative vintage looking speaker to play your favorite tunes</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div id="home" style="display:none">
+                        <h1>Home</h1>
+                        <hr>
+                        
+                        <div align="center" class="homecards">
+                        <div class="HomeCard1" onclick="window.location='Projects/DIY-Coming-Soon.html'">
+                            <img src="diy5.jpg" alt="Display" width="96" height="96" >
+                            <div class="HomeContainer1">
+                                 <h4><b>Wine Bottle Planter</b></h4>
+                                <p>Nothing spells high class more than using wine bottles as pots for plants</p>
+                            </div>
+                        </div>
+                        <div class="HomeCard2" onclick="window.location='Projects/DIY-Coming-Soon.html'">
+                            <img src="bookshelf.jpg" alt="Display" width="96" height="96" >
+                            <div class="HomeContainer2">
+                                 <h4><b>Ceiling Bookshelf with Ladder</b></h4>
+                                <p>Add an easily accessible bookshelf in your house that takes up no space at all!</p>
+                            </div>
+                        </div>
+                        <div class="HomeCard3" onclick="window.location='Projects/DIY-Coming-Soon.html'">
+                            <img src="barbell.jpg" alt="Display" width="96" height="96" >
+                            <div class="HomeContainer3">
+                                 <h4><b>Barbell Rack</b></h4>
+                                <p>Why pay for an expensive barbell rack when you can make one on your own!</p>
+                            </div>
+                        </div>
+                        <div class="HomeCard4" onclick="window.location='Projects/DIY-Coming-Soon.html'">
+                            <img src="charging.jpg" alt="Display" width="96" height="96" >
+                            <div class="HomeContainer4">
+                                 <h4><b>Cell Phone Charging Stand</b></h4>
+                                <p>Prevent wire clutter with a cellphone charging stand to organize those pesky cables!</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div id="food" style="display:none">
+                       <h1>Food</h1>
+                       <hr>
+                      <div align="center" class = "foodcards"> 
+                        <div class="FoodCard1" onclick="window.location='Projects/Foods_SmorePizza.html'">
+                            <img src="diy3.jpg" alt="Display" width="96" height="96" >
+                            <div class="FoodContainer1">
+                                 <h4><b>S'more Dessert Pizza</b></h4>
+                                <p>For those who want the best of both worlds!</p>
+                            </div>
+                        </div>
+                        <div class="FoodCard2" onclick="window.location='Projects/DIY-Coming-Soon.html'">
+                            <img src="sschicken.jpg" alt="Display" width="96" height="96" >
+                            <div class="FoodContainer2">
+                                 <h4><b>Sweet n' Sour Chicken</b></h4>
+                                <p>Just like the resturaunts!</p>
+                            </div>
+                        </div>
+                        <div class="FoodCard3" onclick="window.location='Projects/DIY-Coming-Soon.html'">
+                            <img src="bananapie.jpeg" alt="Display" width="96" height="96" >
+                            <div class="FoodContainer3">
+                                 <h4><b>Banana Cream Pie</b></h4>
+                                <p>A "healthy" dessert</p>
+                            </div>
+                        </div>
+                        <div class="FoodCard4"  onclick="window.location='Projects/DIY-Coming-Soon.html'">
+                            <img src="bbq.jpeg" alt="Display" width="96" height="96">
+                            <div class="FoodContainer4">
+                                 <h4><b>BBQ Chicken Sandwhich</b></h4>
+                                <p>Perfect for at home BBQing</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bottom">
+                <!-- Div for the bottom of the website -->
+
+                <p id="designers"><b>Designers: </b>Revan Aleti, Aditya Tewary, Pranav Pitchala, Rishab Nathan</p>
+
+                <p id="contact"><b>Contact:</b> diysky@gmail.com</p>
+
+                <p>Theme: DIY | Metea Valley High School BPA | Aurora, Illinois | 2016-17</p>
+
+            </div>
+        </div>
+
+    </body>
+
+
+</html>

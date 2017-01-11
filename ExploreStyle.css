@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+
+html
+{
+    font-family: 'Raleway';
+}
+
+#logohead:hover
+{
+    cursor: pointer;
+}
+
+.header h1
+{
+    color: #ADD8E6;
+    text-align: left;
+    font-weight: bold;
+}
+
+span {
+    color: goldenrod;
+}
+
+.top
+{
+    background-color: #ADD8E6;
+}
+
+#navbar
+{
+    text-align: center;
+}
+
+#navbar li
+{
+    display: inline;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+button
+{
+    background-color: #ADD8E6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #999999;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.mid
+{
+    padding: 10%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+#main-slogan
+{
+    text-align: center;
+}
+
+#second-slogan
+{
+    text-align: center;
+}
+
+#by-yourself
+{
+    color: goldenrod;
+}
+
+
+#chip1 {
+    display: inline-block;
+    padding: 0 55px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#chip1 img {
+    float: left;
+    margin: 0 10px 0 -55px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#chip1:hover
+{
+    background-color:#CFB666 ;
+    color: white;
+}
+
+
+
+#chip2 {
+    display: inline-block;
+    padding: 0 55px;
+    margin-left: 10%;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#chip2 img {
+    float: left;
+    margin: 0 10px 0 -55px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#chip2:hover
+{
+    background-color:#CFB666 ;
+    color: white;
+}
+
+#chip3 {
+    display: inline-block;
+    padding: 0 55px;
+    margin-left: 10%;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#chip3 img {
+    float: left;
+    margin: 0 10px 0 -55px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#chip3:hover
+{
+    background-color:#CFB666 ;
+    color: white;
+}
+
+
+#chip4 {
+    display: inline-block;
+    padding: 0 55px;
+    margin-left: 10%;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+#chip4 img {
+    float: left;
+    margin: 0 10px 0 -55px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#chip4:hover
+{
+    background-color:#CFB666 ;
+    color: white;
+}
+
+#crafts h1 {
+    color:goldenrod;
+}
+
+#tech h1 {
+    color:goldenrod;
+}
+
+#home h1 {
+    color:goldenrod;
+}
+
+#food h1 {
+    color:goldenrod;
+}
+
+.CraftCard1
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.CraftCard1:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.CraftContainer1
+{
+    padding: 2px 16px;
+    
+}
+
+.CraftCard2
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.CraftCard2:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.CraftContainer2
+{
+    padding: 2px 16px;
+}
+
+.CraftCard3
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.CraftCard3:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.CraftContainer3
+{
+    padding: 2px 16px;
+}
+
+.CraftCard4
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.CraftCard4:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.CraftContainer4
+{
+    padding: 2px 16px;
+}
+
+.TechCard1
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.TechCard1:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.TechContainer1
+{
+    padding: 2px 16px;
+}
+
+.TechCard2
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.TechCard2:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.TechContainer2
+{
+    padding: 2px 16px;
+}
+
+.TechCard3
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.TechCard3:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.TechContainer3
+{
+    padding: 2px 16px;
+}
+
+.TechCard4
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.TechCard4:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.TechContainer4
+{
+    padding: 2px 16px;
+}
+
+.HomeCard1
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.HomeCard1:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.HomeContainer1
+{
+    padding: 2px 16px;
+}
+
+.HomeCard2
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.HomeCard2:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.HomeContainer2
+{
+    padding: 2px 16px;
+}
+
+.HomeCard3
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.HomeCard3:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.HomeContainer3
+{
+    padding: 2px 16px;
+}
+
+.HomeCard4
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.HomeCard4:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.HomeContainer4
+{
+    padding: 2px 16px;
+}
+
+.FoodCard1
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.FoodCard1:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.FoodContainer1
+{
+    padding: 2px 16px;
+}
+
+.FoodCard2
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.FoodCard2:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.FoodContainer2
+{
+    padding: 2px 16px;
+}
+
+.FoodCard3
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.FoodCard3:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.FoodContainer3
+{
+    padding: 2px 16px;
+}
+
+.FoodCard4
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: table-cell;
+    padding-top: 50px;
+}
+
+.FoodCard4:hover
+{
+    box-shadow: 0 12px 32px 0 rgba(173,216,230,1);
+    cursor: pointer;
+}
+
+.FoodContainer4
+{
+    padding: 2px 16px;
+}
+
+.foodcards
+{
+    
+}
+
+
+.bottom{
+    padding: 12px;
+    color: white;
+    background-color: #ADD8E6;
+    clear: left;
+    text-align: center;
+}
